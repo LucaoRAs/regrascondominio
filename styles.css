@@ -197,7 +197,6 @@ a:hover{ text-decoration: underline; }
   height: 55px;
   border-radius: 50%;
   object-fit: cover;
-  background-color: #fff;
 }
 
 .whatsapp-fab-box i {

@@ -6,15 +6,11 @@
   <meta name="description" content="Regras da sauna do condomínio — horários, higiene, proibições e agendamento." />
   <title>Sauna — Regras do Condomínio</title>
   <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- App CSS -->
   <link rel="stylesheet" href="styles.css" />
   <meta name="color-scheme" content="light only" />
   <meta name="theme-color" content="#162858" />
@@ -25,11 +21,13 @@
   <a class="visually-hidden-focusable skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
   <header class="app-header navbar navbar-dark fixed-top shadow-sm">
     <div class="container-fluid d-flex align-items-center justify-content-between">
+      <a class="btn btn-link text-white p-0 d-flex align-items-center" href="index.html" aria-label="Voltar ao menu">
+        <i class="bi bi-arrow-left fs-5" aria-hidden="true"></i>
+      </a>
+      <h1 class="navbar-brand m-0 fs-5 fw-semibold">Regras do Condomínio</h1>
       <div class="header-logo d-flex align-items-center">
         <img src="img/Agnus sem fundo.png" alt="Logo do Condomínio">
       </div>
-      <h1 class="navbar-brand m-0 fs-5 fw-semibold">Regras do Condomínio</h1>
-      <span aria-hidden="true" class="placeholder-action"></span>
     </div>
   </header>
 
@@ -46,7 +44,7 @@
 
               <ol class="mb-3 app-ol">
                 <li><strong>Horário de funcionamento:</strong> diariamente, das <strong>09:00 às 22:00</strong>, respeitando os limites estabelecidos pelo condomínio.</li>
-                <li><strong>Idade mínima:</strong> o uso é permitido apenas para <strong>maiores de 14 anos</strong>. Menores de idade deverão estar acompanhados de um responsável.</li>
+                <li><strong>Idade mínima:</strong> o uso é permitido apenas para <strong>maiores de 14 anos</strong>. Menores de idade devem estar acompanhados de um responsável.</li>
                 <li><strong>Tempo de permanência:</strong> recomenda-se a permanência máxima de <strong>20 minutos</strong> por sessão, por questões de saúde e segurança.</li>
                 <li><strong>Higiene:</strong> é obrigatório o uso de <strong>toalha</strong> para sentar-se nos bancos da sauna. O <strong>banho</strong> deve ser tomado antes de ingressar no ambiente.</li>
                 <li><strong>Trajes adequados:</strong> utilizar roupas de banho apropriadas (<strong>sunga, maiô ou biquíni</strong>).</li>
@@ -101,7 +99,6 @@
     </nav>
   </footer>
 
-  <!-- Mobile-only Overlay -->
   <div id="mobile-only-overlay" class="mobile-only-overlay" role="dialog" aria-modal="true" aria-labelledby="overlay-title" aria-describedby="overlay-desc" hidden>
     <div class="overlay-backdrop"></div>
     <div class="overlay-panel" role="document">
@@ -116,16 +113,7 @@
     </div>
   </div>
 
-  <!-- WhatsApp FAB (mantido) -->
-  <a
-    id="whatsapp-fab"
-    class="whatsapp-fab-box"
-    href="#"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Falar no WhatsApp"
-    title="Fale Conosco pelo WhatsApp"
-  >
+  <a id="whatsapp-fab" class="whatsapp-fab-box" href="#" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp" title="Fale Conosco pelo WhatsApp">
     <div class="whatsapp-top">
       <img src="img/lumi.png" alt="Atendente Virtual" class="whatsapp-img" />
       <i class="bi bi-whatsapp"></i>
@@ -133,9 +121,7 @@
     <span class="whatsapp-text">Fale Conosco</span>
   </a>
 
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <!-- App JS -->
   <script src="script.js"></script>
 </body>
 </html>
